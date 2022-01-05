@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Rokkitt:wght@100&family=Supermercado+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Quicksand:wght@300&family=Rokkitt:wght@100&family=Supermercado+One&family=Titillium+Web:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Open+Sans+Condensed:wght@300&family=Quicksand:wght@300&family=Rokkitt:wght@100&family=Supermercado+One&family=Titillium+Web:wght@200&display=swap');
+
+
+main{
+    background-color: black;
+    background-image: url(./Imagens/background.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+    height: 350px;
+    width: 700px;
+
+    padding: 10px 35px;
+
+    font-family: 'Quicksand', sans-serif;
+    font-size: medium;
+    
+    
+}
+
+ul{
+    padding-top: 1px;
+    padding-left: 65px;
+    text-transform: uppercase;
+    font-size: x-large;
+    
+
+}
+
+/* .lista{
+    text-transform: uppercase;
+   }   <-- aqui nao consegui colocar uppercase apenas selecianando a ul toda logo acima (por fim preferi lowercase mesmo) */
+
+li{
+    
+    list-style: none;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    
+    
+    
+}
+
+h1{
+    padding: 5px 40px 1px 35px;
+    letter-spacing: 2px;
+    font-family: 'Chakra Petch', sans-serif;
+    word-spacing: 8px;
+}
